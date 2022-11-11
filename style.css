@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+main {
+    background-color: coral;
+    height: 500px;
+    max-width: 350px;
+    margin: 20px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    
+}
+
+main h1 {
+    margin: 10px auto;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+#bill-container {
+    background-color: whitesmoke;
+    height: 40%;
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+#split-container {
+    background-color: whitesmoke;
+    height: 30%;
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+
+
+#bill {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bill-input {
+    border-radius: 5px;
+    border: 2px solid coral;
+    padding: 0px 5px;
+}
+
+#tip-show {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tip-slider {
+    width: 100%;
+
+}
+
+#tip-amount {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#line {
+    background-color: black;
+    height: 1px;
+
+}
+
+#total-amout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-items {
+    margin: 10px 0;
+}
+
+.split-items {
+    margin: 8px 0;
+
+}
+
+#split-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+#split-slider {
+    width: 100%;
+}
+
+#bill-each {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tip-each {
+    display: flex;
+    justify-content: space-between;
+}

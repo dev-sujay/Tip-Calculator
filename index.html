@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Quick Tip</h1>
+
+        <div id="bill-container">
+
+            <div id="bill" class="bill-items">
+                <label for="bill-input">Bill</label>
+                <input type="number" name="bill" id="bill-input" placeholder="Your Bill">
+            </div>
+
+            <div id="tip-percent" class="bill-items">
+                <div id="tip-show">
+                    <label for="tip-percent">Select Tip</label>
+                    <span id="tip-percent">0%</span>
+                </div>
+                <div>
+                    <input type="range" name="tip-percent" id="tip-slider" min="0" max="100">
+                </div>
+            </div>
+
+            <div id="tip-amount" class="bill-items">
+                <span>Tip</span>
+                <span id="tip-amount-calculated">Rs 20.00</span>
+            </div>
+
+            <div id="line" class="bill-items"></div>
+
+            <div id="total-amout" class="bill-items">
+                <span>Total</span>
+                <span id="total-bill">Rs 300</span>
+            </div>
+
+        </div>
+
+        <div id="split-container">
+
+            <div id="split-number" class="split-items">
+                <div id="split-label">
+                    <label for="split">Split</label>
+                    <span id="split-person">1 Person</span>
+                </div>
+                <div>
+                    <input type="range" name="split" id="split-slider" min="1" max="20">
+                </div>
+            </div>
+
+            <div id="bill-each" class="split-items">
+                <span>Bill Each</span>
+                <span>Rs 5</span>
+            </div>
+            <div id="tip-each" class="split-items">
+                <span>Tip Each</span>
+                <span>Rs 5</span>
+            </div>
+
+
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
