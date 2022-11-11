@@ -23,26 +23,26 @@
                 <input type="number" name="bill" id="bill-input" placeholder="Your Bill">
             </div>
 
-            <div id="tip-percent" class="bill-items">
+            <div id="tip" class="bill-items">
                 <div id="tip-show">
                     <label for="tip-percent">Select Tip</label>
                     <span id="tip-percent">0%</span>
                 </div>
                 <div>
-                    <input type="range" name="tip-percent" id="tip-slider" min="0" max="100">
+                    <input type="range" name="tip-percent" id="tip-slider" min="0" max="100" value="0">
                 </div>
             </div>
 
             <div id="tip-amount" class="bill-items">
                 <span>Tip</span>
-                <span id="tip-amount-calculated">Rs 20.00</span>
+                <span id="tip-amount-calculated">Rs 0.00</span>
             </div>
 
             <div id="line" class="bill-items"></div>
 
             <div id="total-amout" class="bill-items">
                 <span>Total</span>
-                <span id="total-bill">Rs 300</span>
+                <span id="total-bill">Rs 0.00</span>
             </div>
 
         </div>
@@ -55,17 +55,17 @@
                     <span id="split-person">1 Person</span>
                 </div>
                 <div>
-                    <input type="range" name="split" id="split-slider" min="1" max="20">
+                    <input type="range" name="split" id="split-slider" min="1" max="20" value="1">
                 </div>
             </div>
 
             <div id="bill-each" class="split-items">
                 <span>Bill Each</span>
-                <span>Rs 5</span>
+                <span id="bill-each-value">Rs 0.00</span>
             </div>
             <div id="tip-each" class="split-items">
                 <span>Tip Each</span>
-                <span>Rs 5</span>
+                <span id="tip-each-value">Rs 0.00</span>
             </div>
 
 
