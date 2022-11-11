@@ -41,7 +41,7 @@ let updateAmount = () => {
         tipAmount.innerHTML = `Rs ${billAmount * tipValue / 100}`
         tipEach.innerHTML = `Rs ${(billAmount * tipValue / 100)/splitSliderValue}`
         totalBill.innerHTML = `Rs ${billAmount + (billAmount * tipValue / 100)}`
-        billEach.innerHTML = `Rs ${(billAmount + (billAmount * tipValue / 100))/splitSliderValue}`
+        billEach.innerHTML = `Rs ${billAmount / splitSliderValue}`
 
 
     } else if (billAmount && !splitSliderValue) {
